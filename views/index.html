@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body ng-app="app">
+<div ng-controller="queryUserController">
+    <form name="queryUserForm" ng-submit="queryUser()">
+        <input name="userId" ng-model="userid"/>
+        <button>查询</button>
+    </form>
+</div>
+</body>
+<script src="javascripts/angular.js"></script>
+<script src="javascripts/controllers.js"></script>
+<script src="javascripts/main.js"></script>
+</html>
